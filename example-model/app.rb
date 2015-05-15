@@ -24,4 +24,5 @@ end
 
 get '/' do
 	"Sinatra is up!"
+	#@user = User.find params[:id]
 end
